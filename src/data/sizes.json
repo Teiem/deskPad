@@ -1,0 +1,103 @@
+[
+    {
+        "width": 300,
+        "height": 300
+    },
+    {
+        "width": 400,
+        "height": 300
+    },
+    {
+        "width": 600,
+        "height": 300
+    },
+    {
+        "width": 600,
+        "height": 400
+    },
+    {
+        "width": 900,
+        "height": 300
+    },
+    {
+        "width": 900,
+        "height": 400
+    },
+    {
+        "width": 900,
+        "height": 500
+    },
+    {
+        "width": 900,
+        "height": 600
+    },
+    {
+        "width": 900,
+        "height": 700
+    },
+    {
+        "width": 1000,
+        "height": 300
+    },
+    {
+        "width": 1000,
+        "height": 400
+    },
+    {
+        "width": 1000,
+        "height": 500
+    },
+    {
+        "width": 1000,
+        "height": 600
+    },
+    {
+        "width": 1000,
+        "height": 700,
+        "selected": true
+    },
+    {
+        "width": 1200,
+        "height": 300
+    },
+    {
+        "width": 1200,
+        "height": 400
+    },
+    {
+        "width": 1200,
+        "height": 500
+    },
+    {
+        "width": 1200,
+        "height": 600
+    },
+    {
+        "width": 1200,
+        "height": 700
+    },
+    {
+        "width": 1200,
+        "height": 800
+    },
+    {
+        "width": 1200,
+        "height": 900
+    },
+    {
+        "width": 1500,
+        "height": 600
+    },
+    {
+        "width": 1500,
+        "height": 700
+    },
+    {
+        "width": 1500,
+        "height": 800
+    },
+    {
+        "width": 1500,
+        "height": 900
+    }
+]

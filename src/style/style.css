@@ -1,0 +1,49 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background-color: #1b2f3b;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.room {
+    padding: 4em;
+    background-color: #234;
+}
+
+#container {
+    background-color: #234;
+    width: 50vw;
+    height: 60vh;
+    position: relative;
+}
+
+#table {
+    position: absolute;
+    background-image: url('../images/table.jpg');
+    background-size: 100px 100px;
+    background-repeat: repeat;
+}
+
+.inputs {
+    position: absolute;
+    bottom: 0;
+}
+
+.draggable-handle {
+    position: absolute;
+}
+
+.draggable {
+    background-size: cover;
+    position: absolute;
+    cursor: move;
+}
+
+.selected > .draggable {
+    outline: 2px dashed #000b;
+}

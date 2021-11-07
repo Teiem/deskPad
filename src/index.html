@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="./srcript/main.js" type="module" async defer></script>
+</head>
+<body>
+    <div class="room">
+        <div id="container">
+            <div id="table"></div>
+        </div>
+    </div>
+    <div class="inputs">
+
+        <select id="size">
+            <option value="loading">loading sizes</option>
+        </select>
+
+        <select id="unit">
+            <option value="cm" selected>metric</option>
+            <option value="in">imperial</option> <!-- Sorry -->
+        </select>
+
+        <label for="tWidth">Table width</label>
+        <input type="number" name="tWidth" id="tWidth" value="0">
+        <label for="tHeight">Table height</label>
+        <input type="number" name="tHeight" id="tHeight" value="0">
+
+        <label for="monitor">Monitor</label>
+        <input type="checkbox" name="Monitor" id="monitor" checked>
+        <label for="keyboard">Keyboard</label>
+        <input type="checkbox" name="Keyboard" id="keyboard" checked>
+        <label for="mouse">Mouse</label>
+        <input type="checkbox" name="Mouse" id="mouse" checked>
+
+    </div>
+</body>
+</html>
