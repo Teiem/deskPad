@@ -5,25 +5,37 @@ import "./controller";
 state.static.tWidthInput.value = state.table.width;
 state.static.tHeightInput.value = state.table.height;
 
-const addOption = (parent, option, { disabled = false, selected = false } = {}) => {
+const addOption = (parent, width, height, { disabled = false, selected = false } = {}) => {
     const optionEl = document.createElement('option');
+    const text = `${width}x${height}`;
 
-    Object.assign(optionEl, {
-        value: option,
-        text: option,
-        disabled,
-        selected
-    });
+    optionEl.value = text;
+    optionEl.text = text;
+    optionEl.disabled = disabled;
+    optionEl.selected = selected;
+    optionEl.dataset.width = width;
+    optionEl.dataset.height = height;
 
     parent.appendChild(optionEl);
 };
 
+/**
+ * Populate Deskpad size select and disables the options that are too big for the table
+ */
 const addSizes = (tWidth, tHeight) => state.availableSizes
-    .forEach(({ width, height, selected }) => addOption(state.static.sizeEl, `${width}x${height}`, {
+    .forEach(({ width, height, selected }) => addOption(state.static.sizeEl, width, height, {
         disabled: width > tWidth || height > tHeight,
         selected: !!selected
     }));
+addSizes(tWidth, tHeight);
 
+/** disable/enable options in select based on new table size */
+const updateOptions = () => [...state.static.sizeEl.children].forEach(el => el.disabled = +el.dataset.width > state.table.width || +el.dataset.height > state.table.height);
+
+/**
+ * Updates the Table size, calculates a new scale and applies it to all objects
+ * Gets invoked by resizing or changing the table size via a form input
+ */
 const updateTableSize = (tWidth, tHeight) => {
     state.static.tWidthInput.value = tWidth;
     state.static.tHeightInput.value = tHeight;
@@ -37,9 +49,8 @@ const updateTableSize = (tWidth, tHeight) => {
     state.table.height = tHeight;
 
     state.elements.forEach(el => el.updateScale());
+    updateOptions();
 };
-
-addSizes(tWidth, tHeight);
 
 const changeDeskpadSize = e => {
     const [ width, height ] = e.target.value.split('x').map(Number);
@@ -48,9 +59,10 @@ const changeDeskpadSize = e => {
     deskpad.height = height;
 }
 
-state.static.sizeEl.addEventListener('change', changeDeskpadSize);
 
-
+/**
+ * Called upon changing the input:number for with or height of the table
+ */
 const changeTableSize = () => {
     const [ width, height ] = [
         state.static.tWidthInput.value,
@@ -60,17 +72,17 @@ const changeTableSize = () => {
     updateTableSize(width, height);
 };
 
-state.static.tWidthInput.addEventListener('change', changeTableSize);
-state.static.tHeightInput.addEventListener('change', changeTableSize);
 
-
-
+/**
+ * Keeps track of the Container size (area the table can fit in)
+ */
 const getContainerSize = () => {
     state.container.width = state.static.containerEl.offsetWidth;
     state.container.height = state.static.containerEl.offsetHeight;
 
     updateTableSize(state.table.width, state.table.height);
 };
+getContainerSize();
 
 const queResizeEnd = () => {
     state.containerOffset = null;
@@ -80,21 +92,20 @@ const queResizeEnd = () => {
     state.resizeEndTimer = setTimeout(getContainerSize, 100);
 };
 
-getContainerSize();
-window.onresize = queResizeEnd;
-
 const deskpad = new Deskpad(state.selectedSize);
-
 const selectableObjects = {
     monitor: new Monitor(),
     keyboard: new Keyboard(),
     mouse: new Mouse(),
 };
 
+state.static.sizeEl.addEventListener('change', changeDeskpadSize);
+state.static.tWidthInput.addEventListener('change', changeTableSize);
+state.static.tHeightInput.addEventListener('change', changeTableSize);
+window.addEventListener("resize", queResizeEnd);
+
 [
     state.static.monitorCheckbox,
     state.static.keyboardCheckbox,
     state.static.mouseCheckbox
 ].forEach(checkbox => checkbox.addEventListener("change", ({ target }) => selectableObjects[target.id].handleEl.style.display = target.checked ? 'block' : 'none'));
-
-window.state = state;

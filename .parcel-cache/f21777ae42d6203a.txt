@@ -1,5 +1,5 @@
-15859
-60C:\Users\Teiem\Documents\randomProjects\deskPad\package.json132807191961225169 0
+15868
+60C:\Users\Teiem\Documents\randomProjects\deskPad\package.json132807192351964268 0
 93C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\@parcel\transformer-posthtml\src132806388964605278 1
 83C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\postcss-convert-values132806388965075275 1
 77C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\sshpk\lib\key.js132806388976125281 0
@@ -13,8 +13,10 @@
 69C:\Users\Teiem\Documents\randomProjects\deskPad\src\images\cursor.svg132807106384776092 0
 110C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\jsdom\lib\jsdom\living\helpers\svg\basic-types.js132806388996937193 0
 125C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\postcss-modules-scope\node_modules\source-map\lib\source-node.js132806388971905281 0
-52C:\Users\Teiem\Documents\randomProjects\deskPad\dist132807187966581727 1
+52C:\Users\Teiem\Documents\randomProjects\deskPad\dist132807295940672354 1
 95C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\es-abstract\2021\StringToBigInt.js132806389005546446 0
+108C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\postcss-modules\build\css-loader-core\parser.js132806388967105290 0
+58C:\Users\Teiem\Documents\randomProjects\deskPad\.gitignore132807193375885667 0
 83C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\colord\plugins\hwb.mjs132806388977875284 0
 65C:\Users\Teiem\Documents\randomProjects\deskPad\package-lock.json132806389018538857 0
 98C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\@babel\types\lib\validators\isNode.js132806388989258503 0
@@ -89,14 +91,14 @@
 108C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\jsdom\node_modules\ws\lib\permessage-deflate.js132806388968355303 0
 97C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\postcss-minify-selectors\LICENSE-MIT132806388938337308 0
 71C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\ansi-regex132806388963185281 1
-62C:\Users\Teiem\Documents\randomProjects\deskPad\src\index.html132807185503454295 0
+62C:\Users\Teiem\Documents\randomProjects\deskPad\src\index.html132807285692776569 0
 83C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\array-equal\.npmignore132806388944624715 0
 93C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\core-js\modules\es.array.find.js132806388997047205 0
 115C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\stream-browserify\node_modules\readable-stream\LICENSE132806388941062417 0
 89C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\to-fast-properties\readme.md132806388961610218 0
 114C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\jsdom\lib\jsdom\living\nodes\HTMLUListElement-impl.js132806388999347184 0
 137C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\stream-http\node_modules\readable-stream\lib\internal\streams\buffer_list.js132806388968965292 0
-59C:\Users\Teiem\Documents\randomProjects\deskPad\src\srcript132807144732867867 1
+59C:\Users\Teiem\Documents\randomProjects\deskPad\src\srcript132807289242167083 1
 67C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\unpipe132806388963255307 1
 88C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\es-abstract\2015\ToInt16.js132806389006361691 0
 100C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\highlight.js\lib\languages\plaintext.js132806388995187182 0
@@ -172,14 +174,7 @@
 90C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\es-abstract\2021\BinaryAnd.js132806388988878507 0
 105C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\@babel\types\lib\validators\isBlockScoped.js132806388989188503 0
 95C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\core-js\internals\function-call.js132806389005971672 0
-67C:\Users\Teiem\Documents\randomProjects\deskPad\src\srcript\main.js132807180209839226 0
-96C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\w3c-xmlserializer\lib\attributes.js132806388957545341 0
-70C:\Users\Teiem\Documents\randomProjects\deskPad\src\srcript\monitor.js132807144531537900 0
-76C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\es-to-primitive132806388976055303 1
-91C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\type-fest\ts41\kebab-case.d.ts132806388978045285 0
-87C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\lodash\_customOmitClone.js132806388994097195 0
-88C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\lodash\fp\dropRightWhile.js132806388999307211 0
-88C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\xmlchars\xml\1.0\ed4.js.map132806388971195279 0
+67C:\Users\Teiem\Documents\randomProjects\deskPad\src\srcript\main.js132807295939882358 0
 128C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\postcss-modules-extract-imports\node_modules\source-map\lib\util.js132806388975625293 0
 80C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\request\lib\hawk.js132806388965465294 0
 90C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\uri-js\dist\esnext\index.d.ts132806388984178525 0
@@ -1141,6 +1136,12 @@
 80C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\object-keys\LICENSE132806388968565312 0
 109C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\jsdom\lib\jsdom\living\svg\SVGStringList-impl.js132806388999587206 0
 72C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\es-abstract132806389008691711 1
+96C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\w3c-xmlserializer\lib\attributes.js132806388957545341 0
+76C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\es-to-primitive132806388976055303 1
+91C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\type-fest\ts41\kebab-case.d.ts132806388978045285 0
+87C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\lodash\_customOmitClone.js132806388994097195 0
+88C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\lodash\fp\dropRightWhile.js132806388999307211 0
+88C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\xmlchars\xml\1.0\ed4.js.map132806388971195279 0
 96C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\postcss-modules\build\behaviours.js132806388958021881 0
 103C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\postcss-reduce-initial\data\toInitial.json132806388964935277 0
 82C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\has-bigints\README.md132806388968635282 0
@@ -2888,6 +2889,7 @@
 87C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\lodash\_baseIndexOfWith.js132806388986018509 0
 77C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\ejs\lib\utils.js132806388970715275 0
 81C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\posthtml-parser\dist132806388976095292 1
+71C:\Users\Teiem\Documents\randomProjects\deskPad\dist\table.bdfdd891.jpg132807192384937986 0
 80C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\emphasize\readme.md132806388964755277 0
 95C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\svgo\plugins\removeRasterImages.js132806388986988501 0
 81C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\json-schema\draft-01132806388965045276 1
@@ -5162,6 +5164,7 @@
 89C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\css-tree\lib\syntax\index.js132806388987488534 0
 78C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\nan\tools\1to2.js132806388985528500 0
 80C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\request\lib\auth.js132806388951392689 0
+70C:\Users\Teiem\Documents\randomProjects\deskPad\dist\index.3d164929.js132807192401678119 0
 91C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\request\lib\getProxyFromURI.js132806388962865280 0
 107C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\caniuse-lite\data\features\css-text-spacing.js132806388995067205 0
 79C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\request\lib\har.js132806388964705292 0
@@ -6568,7 +6571,6 @@
 94C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\postcss-modules\build\saveJSON.js132806388968315301 0
 89C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\htmlnano\docs\versioned_docs132806388985508513 1
 83C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\lodash\_isPrototype.js132806388994817191 0
-108C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\postcss-modules\build\css-loader-core\parser.js132806388967105290 0
 98C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\postcss-minify-selectors\CHANGELOG.md132806388965125285 0
 89C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\brace-expansion\package.json132806388937673482 0
 86C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\lodash\_defineProperty.js132806388994147185 0
@@ -8988,6 +8990,7 @@
 116C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\lmdb-store\dependencies\lmdb\libraries\liblmdb\mtest6.c132806388987778503 0
 120C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\lmdb-store\dependencies\lmdb\libraries\liblmdb\mtest_enc2.c132806388987278544 0
 83C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\lilconfig\package.json132806388952803425 0
+75C:\Users\Teiem\Documents\randomProjects\deskPad\dist\index.e8a33298.css.map132807192401708149 0
 111C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\@parcel\core\test\fixtures\custom-format-infer-ext132806388994197181 1
 113C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\caniuse-lite\data\features\keyboardevent-charcode.js132806388999727186 0
 122C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\lmdb-store\dependencies\lmdb\libraries\liblmdb\sample-mdb.txt132806388999107202 0
@@ -11163,6 +11166,7 @@
 91C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\core-js\features\math\hypot.js132806389006521679 0
 93C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\es-abstract\2020\RegExpCreate.js132806389003592866 0
 90C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\es-abstract\2020\SameValue.js132806389004740748 0
+75C:\Users\Teiem\Documents\randomProjects\deskPad\dist\niceMouse.789ce2b2.png132807192399027947 0
 94C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\es-abstract\2020\SameValueZero.js132806389004870755 0
 98C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\es-abstract\2020\SetIntegrityLevel.js132806389005156444 0
 99C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\es-abstract\2020\SpeciesConstructor.js132806389005276418 0
@@ -11170,7 +11174,7 @@
 93C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\es-abstract\2020\StringCreate.js132806389005446439 0
 101C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\es-abstract\2020\StringGetOwnProperty.js132806389005486441 0
 90C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\es-abstract\2020\StringPad.js132806389005516419 0
-74C:\Users\Teiem\Documents\randomProjects\deskPad\dist\index.fdb1c3d2.js.map132807187966581727 0
+74C:\Users\Teiem\Documents\randomProjects\deskPad\dist\index.fdb1c3d2.js.map132807295940672354 0
 96C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\es-abstract\2020\thisBigIntValue.js132806389005716447 0
 97C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\core-js\features\array\virtual\at.js132806388989288502 0
 96C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\es-abstract\2020\thisStringValue.js132806389005861691 0
@@ -12825,7 +12829,7 @@
 99C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\core-js\stable\array-buffer\is-view.js132806389008951673 0
 97C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\core-js\stable\array-buffer\slice.js132806389011551675 0
 91C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\core-js\stable\array\concat.js132806388994197181 0
-63C:\Users\Teiem\Documents\randomProjects\deskPad\dist\index.html132807185504184967 0
+63C:\Users\Teiem\Documents\randomProjects\deskPad\dist\index.html132807192401678119 0
 96C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\core-js\stable\array\copy-within.js132806388994597186 0
 89C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\core-js\stable\array\fill.js132806389003742871 0
 91C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\core-js\stable\array\filter.js132806389004830740 0
@@ -13352,7 +13356,7 @@
 82C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\core-js\features\json132806389012611673 1
 84C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\core-js\features\object132806389013291674 1
 92C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\core-js\features\parse-float.js132806389010471673 0
-70C:\Users\Teiem\Documents\randomProjects\deskPad\dist\index.fdb1c3d2.js132807187966561732 0
+70C:\Users\Teiem\Documents\randomProjects\deskPad\dist\index.fdb1c3d2.js132807295940652353 0
 97C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\core-js\features\number\is-finite.js132806389008751702 0
 90C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\core-js\features\parse-int.js132806389010521693 0
 96C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\core-js\features\queue-microtask.js132806389010631674 0
@@ -15855,6 +15859,11 @@
 71C:\Users\Teiem\Documents\randomProjects\deskPad\node_modules\.bin\which132806389013981694 0
 71C:\Users\Teiem\Documents\randomProjects\deskPad\dist\index.21687bf8.css132807185760461914 0
 75C:\Users\Teiem\Documents\randomProjects\deskPad\dist\index.21687bf8.css.map132807185760471911 0
+74C:\Users\Teiem\Documents\randomProjects\deskPad\dist\index.3d164929.js.map132807192401708149 0
+71C:\Users\Teiem\Documents\randomProjects\deskPad\dist\index.e8a33298.css132807192401678119 0
 119C:\Users\Teiem\Documents\randomProjects\deskPad\dist\Lttstore_NorthernLightsDeskPad_TransparencyFile_700x.49409abb.webp132806441509271969 0
+124C:\Users\Teiem\Documents\randomProjects\deskPad\dist\Lttstore_NorthernLightsDeskPad_TransparencyFile_700x_crop.486955bf.webp132807192384737969 0
 124C:\Users\Teiem\Documents\randomProjects\deskPad\dist\Lttstore_NorthernLightsDeskPad_TransparencyFile_700x_crop.e405fbe1.webp132807179163995166 0
+78C:\Users\Teiem\Documents\randomProjects\deskPad\dist\niceKeyboard.1fad576b.png132807192390097981 0
 78C:\Users\Teiem\Documents\randomProjects\deskPad\dist\niceKeyboard.f29deacf.png132807179164065182 0
+77C:\Users\Teiem\Documents\randomProjects\deskPad\dist\niceMonitor.e805822f.png132807192384747960 0
